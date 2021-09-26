@@ -1,0 +1,34 @@
+{
+  "info": {
+    "_postman_id": "6ae98158-cc54-4f21-a5a2-6800e43d6cec",
+    "name": "scheduler-service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/add/:time/?url=http://localhost:3000/api",
+          "host": ["{{baseUrl}}"],
+          "path": ["add", ":time", ""],
+          "query": [
+            {
+              "key": "url",
+              "value": "http://localhost:3000/api"
+            }
+          ],
+          "variable": [
+            {
+              "key": "time",
+              "value": "1632689768349"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
