@@ -1,0 +1,27 @@
+{
+  "name": "redis-scheduler-hook",
+  "version": "1.0.0",
+  "description": "Delayed http request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwafa/redis-scheduler-hook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwafa/redis-scheduler-hook/issues"
+  },
+  "homepage": "https://github.com/mwafa/redis-scheduler-hook#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.27.9",
+    "uuid": "^8.3.2"
+  }
+}
