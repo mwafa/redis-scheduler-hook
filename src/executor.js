@@ -1,8 +1,9 @@
 const { default: axios } = require("axios")
+const logger = require("./utils/logger")
 
 const executor = (body) => {
   const { method, url, body: data, headers } = body
-  console.log(`${method} : ${url}`)
+  logger(`${method} : ${url}`)
   return axios({
     url,
     data,
